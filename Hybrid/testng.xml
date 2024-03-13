@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="listeners.Listener_runnerclass"/>
+      <class name="groups.Test_annot"/>
+      <class name="property_files.Fetch_prop"/>
+      <class name="groups.Group1"/>
+      <class name="property_files.Property_files"/>
+      <class name="runner.Dataprovider_runner"/>
+      <class name="data_providers.Runner_read_data"/>
+      <class name="runner.Runner_fb"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
