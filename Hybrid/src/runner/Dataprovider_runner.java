@@ -22,6 +22,7 @@ public void Fb_login() throws InterruptedException, EncryptedDocumentException, 
 	f1.password(Ddt_fetchdata.getData("sheet2",0,1));
 	Thread.sleep(5000);
 	f1.login();
+	System.out.println("Hi Harini this is vidhi");
 
 }
 
